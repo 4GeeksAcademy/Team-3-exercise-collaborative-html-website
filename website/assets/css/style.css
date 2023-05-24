@@ -1,3 +1,11 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+.col-lg-3{
+    padding-top: 4%;
+}
+
+.col-lg-9{
+    padding-top: 4%;
 }
