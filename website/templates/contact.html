@@ -11,30 +11,31 @@
 
   <div class="container"> <!--2a layer div-->
 
-    <div class="p-3 mb-2 bg-light text-dark"> <!--start-->
-      <form> <!--form-->
-
-        <div class="form-group row">
-          <label for="emailInput" class="col-sm-2 col-form-label"><strong>Your E-mail</strong></label>
-
-          <div class="col-sm-10">
+    <!--decresed size between right-most edge of grey container and form input so it resemble example. Down 50% from px-4 -->
+    <div class="container mb-2 bg-light text-dark col-9 p-4 px-2 "> <!--start-->  <!--Decreased size between grey container vertically and sumbit button so it resembles example. Down 25% from p-5-->
+      <form class="justify-content-center"> <!--form-->
+        <div class="form-group row p-2">
+          <label for="emailInput" class="col-3 col-form-label text-end"><strong>Your E-mail</strong></label>
+          <div class="col">
             <input type="email" class="form-control" id="emailInput" placeholder="your email">
           </div>
         </div>
-        <div class="form-group row">
-          <label for="messageInput" class="col-sm-2 col-form-label"><strong>Your message</strong></label>
-          <div class="col-sm-10">
+        <div class="form-group row p-2">
+          <label for="messageInput" class="col-3 col-form-label text-end"><strong>Your message</strong></label>
+          <div class="col">
             <textarea class="form-control" id="messageInput" rows="5"
               placeholder="Please enter your message..."></textarea>
           </div>
         </div>
         <div class="gy-3">
           <div class="form-group row text-end">
-            <div class="col-sm-10 offset-sm-2 gy-3">
+            <div class="col offset-sm-2 gy-3 px-4">
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </div>
         </div>
+      </form> <!--ends here-->
+    </div>
 
       </form> <!--ends here-->
 
